@@ -82,4 +82,4 @@ Feel free to use, modify, or share without restriction!
 ## 🔗 Links
 
 - **Live blog:** [MorDictionary](https://mandarinmoribund.blogspot.com/)
-- **GitHub repo:** [MorDictionary Blogger Theme](https://github.com/MorMandarin/blogger-theme-mor-mandarin)
+- **GitHub repo:** [MorDictionary Blogger Theme]([https://github.com/MorMandarin/blogger-theme-mor-mandarin](https://github.com/MandarinMurdoch/blogger-theme-mandarin-moribund))
