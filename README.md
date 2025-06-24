@@ -61,7 +61,7 @@ It was orginally going to be the Taiwanese flag color scheme, but I switched to 
 ## ⚡ Setup
 
 1️⃣ Upload or paste the theme XML code in your Blogger’s theme editor.  
-2️⃣ Swap all mentioning of MorMandarin to whatever your blog is, check javascript and whatnot to swap out links for your own whatnot and all that.
+2️⃣ Replace all mentions of "MorMandarin" with your own blog name. Check the JavaScript and other code to ensure all links and related content are updated accordingly.
 ---
 
 ## 📝 License
