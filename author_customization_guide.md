@@ -8,12 +8,17 @@ This guide explains how to customize the author name and link that appears in th
 
 ### 1. Find Your Blogger Profile URL
 
-1. Go to Settings & then Scrool Down to View Profile 
-2. Locate your Blogger **Profile URL** in the page. It should look like:
-   ```
-   https://www.blogger.com/profile/12345678901234567890
-   ```
-You can find it here: ![Guide Screenshot: How to Find Your Blogger Numeric ID](Guide%20Screenshots/Guide%20Click%20Here%20to%20Find%20Your%20Bloggers%20Numeric%20ID.png)
+1. Go to **Settings**  
+2. Scroll down to **View Profile** — click on _"View Profile"_  
+3. Copy the **Numeric ID** from the hyperlink on the profile page  
+4. Paste the **Numeric ID** into the **Create Author Display** JavaScript
+
+![Guide Screenshot: How to Find Your Blogger Numeric ID](Guide%20Screenshots/Guide%20Click%20Here%20to%20Find%20Your%20Bloggers%20Numeric%20ID.png)
+
+![Instruction Screenshot: Put your own numeric ID into the code](Guide%20Screenshots/Put%20your%20own%20numeric%20id%20into%20the%20code%20instruction.png)
+
+![Screenshot: Find "Create Author Display" and put in your Numeric ID](Guide%20Screenshots/Find%20Create%20Author%20Display%20and%20Put%20in%20Your%20Numeric%20ID.png)
+
 ---
 
 ### 2. Locate the Author Attribution Code
