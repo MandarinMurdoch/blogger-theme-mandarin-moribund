@@ -13,7 +13,7 @@ This guide explains how to customize the author name and link that appears in th
    ```
    https://www.blogger.com/profile/12345678901234567890
    ```
-
+You can find it here: ![Guide Screenshot: How to Find Your Blogger Numeric ID](Guide%20Screenshots/Guide%20Click%20Here%20to%20Find%20Your%20Bloggers%20Numeric%20ID.png)
 ---
 
 ### 2. Locate the Author Attribution Code
