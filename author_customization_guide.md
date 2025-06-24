@@ -19,42 +19,7 @@ This guide explains how to customize the author name and link that appears in th
 
 ![Screenshot: Find "Create Author Display" and put in your Numeric ID](Guide%20Screenshots/Find%20Create%20Author%20Display%20and%20Put%20in%20Your%20Numeric%20ID.png)
 
----
-
-### 2. Locate the Author Attribution Code
-
-In your Blogger theme's JavaScript section, look for a line that looks like this:
-
-```js
-authorDisplay.innerHTML = `<a class='author-name' href='https://www.blogger.com/profile/01795026804926642553' rel='noopener noreferrer' target='_blank'>By: MorMandarin</a>`;
-```
-
----
-
-### 3. Replace It with Your Profile
-
-Change the `href` attribute and display name to your own:
-
-```js
-authorDisplay.innerHTML = `<a class='author-name' href='https://www.blogger.com/profile/YOUR_PROFILE_ID' rel='noopener noreferrer' target='_blank'>By: YourName</a>`;
-```
-
-#### Example:
-
-```js
-authorDisplay.innerHTML = `<a class='author-name' href='https://www.blogger.com/profile/12345678909876543210' rel='noopener noreferrer' target='_blank'>By: Jane Doe</a>`;
-```
-
----
-
-## 🔧 Optional: Where to Place the Code
-
-This script typically lives at the end of the theme's XML or in a separate `<script>` block near the closing `</body>` tag.
-
-You can edit this in **Theme → Edit HTML**.
-
----
-
+--
 ## 🕺 Optional: Dynamic Author Name (Advanced)
 
 If you'd prefer to pull the author name directly from Blogger's system (limited compatibility), you can try:
