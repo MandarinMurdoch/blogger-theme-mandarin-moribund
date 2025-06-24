@@ -1,0 +1,137 @@
+<style>
+.themed-dict-entry {
+  background: linear-gradient(145deg, #7a0000, #990000);
+  border: 2px solid #8c0000;
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin: 30px auto;
+  color: #ffffff;
+  max-width: 700px;
+  font-family: 'IM Fell English', serif;
+  box-shadow: 0 0 14px rgba(255, 204, 0, 0.35);
+  line-height: 1.7;
+  font-size: 18px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.themed-dict-entry::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.themed-dict-entry > * {
+  position: relative;
+  z-index: 1;
+}
+
+.themed-dict-entry h3 {
+  color: #ffcc00;
+  font-size: 2em;
+  margin-bottom: 0.7em;
+  text-shadow: 0 0 5px rgba(255, 204, 0, 0.6);
+  line-height: 1.2;
+}
+
+.themed-dict-entry .label {
+  color: #ffcc00;
+  font-weight: bold;
+  display: block;
+  margin: 14px 0 4px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.themed-dict-entry p {
+  margin: 0 0 14px;
+}
+
+.themed-dict-entry .example {
+  margin-top: 20px;
+  font-style: italic;
+  color: #ffffff;
+  border-top: 1px dashed #ffcc00;
+  padding-top: 14px;
+  text-shadow: none;
+  font-size: 0.95em;
+}
+
+.themed-dict-entry .char-link {
+  color: #ffcc00;
+  text-decoration: none;
+  transition: color 0.2s, text-shadow 0.2s;
+}
+
+.themed-dict-entry .char-link:hover {
+  color: #ffd966;
+  text-shadow: 0 0 6px rgba(255, 204, 0, 0.8);
+}
+</style>
+
+<div class="themed-dict-entry">
+  <h3><!-- Insert word or phrase here --></h3>
+
+  <p>
+    <span class="label">Pinyin:</span> <!-- Insert Pinyin -->
+    &nbsp;&nbsp;&nbsp;
+    <span class="label">Zhuyin:</span> <!-- Insert Zhuyin -->
+  </p>
+
+  <p>
+    <span class="label">Definition:</span> <!-- Insert English definition -->
+  </p>
+
+  <p class="example">
+    <span class="label">Example:</span> <!-- Insert example sentence in Chinese -->
+    <em><!-- Insert English translation --></em>
+  </p>
+
+  <hr style="border: none; border-top: 1px dashed rgba(255, 204, 0, 0.3); margin: 25px 0;">
+
+  <p>
+    <span class="label">释义：</span> <!-- Insert Chinese definition -->
+  </p>
+</div>
+
+<div style="color: #ffcc00; font-family: 'IM Fell English', serif; margin-bottom: 20px; text-align: center;">
+  <h3 style="margin-bottom: 10px; text-shadow: 0 0 5px rgba(255, 204, 0, 0.6);">Stroke Order Animation</h3>
+  
+  <div style="cursor: pointer; display: inline-flex; font-size: 2em; gap: 25px; justify-content: center;">
+    <!-- Repeat this block per character -->
+    <div>
+      <a class="char-link" data-char="CHAR_KEY" href="#">CHARACTER</a><br />
+      <small style="color: #ffd966; font-size: 0.6em;">PINYIN</small>
+    </div>
+    <!-- Add more character blocks as needed -->
+  </div>
+</div>
+
+<div style="margin: 30px auto; max-width: 700px; text-align: center;">
+  <!-- Repeat for each character -->
+  <div id="char-CHAR_KEY" style="display: inline-block; width: 100px; height: 100px; margin: 5px;"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+<script>
+  const writers = {
+    // Example placeholder — add entries for each character
+    CHAR_KEY: HanziWriter.create('char-CHAR_KEY', 'CHARACTER', { width: 100, height: 100, strokeAnimationSpeed: 1 }),
+    // Add more characters as needed
+  };
+
+  document.querySelectorAll('.char-link').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const charKey = link.getAttribute('data-char');
+      if (writers[charKey]) {
+        writers[charKey].animateCharacter();
+        document.getElementById('char-' + charKey).scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
+  });
+</script>
