@@ -4,7 +4,11 @@
 It combines a clean, dark-modern aesthetic with enhanced functionality for readability, discoverability, and sharing.
 
 ---
+## 📸 Screenshot
 
+![Screenshot of MorMandarin Blogger](Images/Screenshot%20of%20MorMandarin%20Blogger.png)
+
+---
 ## ✨ Features
 
 - 📌 **Dark Futuristic Design**  
@@ -36,12 +40,6 @@ It combines a clean, dark-modern aesthetic with enhanced functionality for reada
 
 - 🌐 **Responsive & Mobile-Friendly**  
   Includes mobile post layout, pagination, and sidebar toggle.
-
----
-
-## 📸 Screenshot
-
-![Screenshot of MorMandarin Blogger](Images/Screenshot%20of%20MorMandarin%20Blogger.png)
 
 ---
 
