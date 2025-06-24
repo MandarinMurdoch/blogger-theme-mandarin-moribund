@@ -1,6 +1,7 @@
 # 👤 Customize the Author Attribution in the Blogger Theme
 
-This guide explains how to customize the author name and link that appears in the post footer of the MorDictionary Blogger theme. By default, the theme shows posts as authored by "MorMandarin." You can easily replace this with your own Blogger profile.
+This guide explains how to customize the author name and link that appears in the post footer of the **MorDictionary** Blogger theme.  
+By default, the theme shows posts as authored by "MorMandarin." You can easily replace this with your own Blogger profile.
 
 ---
 
@@ -19,18 +20,11 @@ This guide explains how to customize the author name and link that appears in th
 
 ![Screenshot: Find "Create Author Display" and put in your Numeric ID](Guide%20Screenshots/Find%20Create%20Author%20Display%20and%20Put%20in%20Your%20Numeric%20ID.png)
 
---
+---
+
 ## 🕺 Optional: Dynamic Author Name (Advanced)
 
 If you'd prefer to pull the author name directly from Blogger's system (limited compatibility), you can try:
 
 ```xml
 <data:post.author.name/>
-```
-
-> ⚠️ Note: This works only in HTML widgets, not JavaScript.
-
----
-
-Happy blogging! 😊
-
