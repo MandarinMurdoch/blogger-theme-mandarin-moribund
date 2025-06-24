@@ -1,7 +1,7 @@
 # MorMandarin Blogger Theme
 
 **MorMandarin** is a custom Blogger theme designed for *MorMandarin* blogger site.
-It combines a clean, dark-modern aesthetic with enhanced functionality for readability, discoverability, and sharing.
+It was orginally going to be the Taiwanese flag color scheme, but I switched to the CCP flag style.
 
 ---
 ## 📸 Screenshot
