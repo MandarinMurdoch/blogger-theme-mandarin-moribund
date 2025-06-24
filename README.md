@@ -1,6 +1,6 @@
 # MorMandarin Blogger Theme
 
-**MorMandarin** is a custom Blogger theme designed for *MorDictionary* and related projects.  
+**MorMandarin** is a custom Blogger theme designed for *MorMandarin* blogger site.
 It combines a clean, dark-modern aesthetic with enhanced functionality for readability, discoverability, and sharing.
 
 ---
