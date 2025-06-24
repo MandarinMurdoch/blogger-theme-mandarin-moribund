@@ -8,7 +8,7 @@ This guide explains how to customize the author name and link that appears in th
 
 ### 1. Find Your Blogger Profile URL
 
-1. Go to [https://www.blogger.com/edit-profile.g](https://www.blogger.com/profile)
+1. Go to Settings & then Scrool Down to View Profile 
 2. Locate your Blogger **Profile URL** in the page. It should look like:
    ```
    https://www.blogger.com/profile/12345678901234567890
