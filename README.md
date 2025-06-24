@@ -61,12 +61,7 @@ It combines a clean, dark-modern aesthetic with enhanced functionality for reada
 ## ⚡ Setup
 
 1️⃣ Upload or paste the theme XML code in your Blogger’s theme editor.  
-2️⃣ Make sure to update:
-- `data:blog.url` references if necessary
-- External links (e.g., social profiles, GitHub repository)
-
-3️⃣ Add `Images/Screenshot of MorMandarin Blogger.png` to your repo for the README to display correctly.
-
+2️⃣ Swap all mentioning of MorMandarin to whatever your blog is, check javascript and whatnot to swap out links for your own whatnot and all that.
 ---
 
 ## 📝 License
